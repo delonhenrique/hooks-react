@@ -19,7 +19,7 @@ const App = props => {
                     {/* to deploy on githubPages use first BrouseRouter */}
                     {/* to run locally and push to github use second BrouseRouter */}
 
-                    {/* <BrouseRouter> basename={process.env.PUBLIC_URL}>  */}
+                    {/* <BrowserRouter basename={process.env.PUBLIC_URL}>  */}
                     <BrowserRouter>
                         <Menu />
                         <Content />
