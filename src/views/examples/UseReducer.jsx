@@ -2,6 +2,8 @@ import React from 'react'
 import PageTitle from '../../components/layout/PageTitle'
 
 const UseReducer = (props) => {
+    document.title = "React - Hooks - useReducer()"
+
     return (
         <div className="UseReducer">
             <PageTitle

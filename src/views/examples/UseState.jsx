@@ -4,6 +4,7 @@ import PageTitle from '../../components/layout/PageTitle'
 import SectionTitle from '../../components/layout/SectionTitle'
 
 const UseState = (props) => {
+    document.title = "React - Hooks - useState()"
     const [count, setCount] = useState(0)
     const [name, setName] = useState("")
 
